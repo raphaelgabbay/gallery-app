@@ -252,7 +252,7 @@ import PlaceholderComponent from '../shared/PlaceholderComponent';\n\n`;
   registryContent += 'export const componentRegistry = {\n';
   registryContent += '  "PlaceholderComponent": {\n';
   registryContent += '    Component: PlaceholderComponent,\n';
-  registryContent += '    author: "Formateur",\n';
+  registryContent += '    author: "Raphael",\n';
   registryContent += '    description: "Un composant d\'exemple en attendant les contributions des élèves."\n';
   registryContent += '  },\n';
   
@@ -347,7 +347,7 @@ Créez un fichier `README.md` à la racine du projet:
 ## Déploiement
 
 L'application est automatiquement déployée sur GitHub Pages à chaque merge dans la branche principale.
-Vous pouvez voir la version en direct ici: [https://[votre-username].github.io/gallery-app](https://[votre-username].github.io/gallery-app)
+Vous pouvez voir la version en direct ici: [https://raphaelgabbay.github.io/gallery-app](https://raphaelgabbay.github.io/gallery-app)
 ```
 
 ## Étape 13: Exemple de structure pour les composants des élèves
