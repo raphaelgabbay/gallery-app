@@ -35,10 +35,7 @@ import PlaceholderComponent from '../shared/PlaceholderComponent';\n\n`;
         
         componentFiles.forEach(file => {
           const componentName = path.basename(file, path.extname(file));
-          const relativePath = path.relative(
-            path.join(__dirname, '../app/components/gallery'),
-            path.join(teamDir, file)
-          ).replace(/\\/g, '/');
+          const relativePath = `../teams/${team}/${file}`;
           
           // Lire le fichier pour extraire les métadonnées (commentaires spéciaux)
           const componentContent = fs.readFileSync(path.join(teamDir, file), 'utf8');
