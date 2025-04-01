@@ -7,7 +7,11 @@ const nextConfig = {
   },
   assetPrefix: '/gallery-app/',
   trailingSlash: true,
-  distDir: 'out'
+  distDir: 'out',
+  webpack: (config) => {
+    config.output.publicPath = '/gallery-app/';
+    return config;
+  }
 }
 
 module.exports = nextConfig 
