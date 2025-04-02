@@ -16,15 +16,17 @@ const nextConfig = {
       config.module.rules.push({
         test: /\.css$/,
         use: [
-          'style-loader',
+          {
+            loader: 'style-loader',
+            options: {
+              injectType: 'singletonStyleTag'
+            }
+          },
           {
             loader: 'css-loader',
             options: {
               importLoaders: 1,
-              modules: {
-                auto: true,
-                localIdentName: '[name]__[local]--[hash:base64:5]'
-              }
+              modules: false
             }
           },
           'postcss-loader'
@@ -52,6 +54,10 @@ const nextConfig = {
           },
         },
       };
+
+      // Ensure proper chunk naming
+      config.output.chunkFilename = 'static/chunks/[name]-[contenthash].js';
+      config.output.filename = 'static/chunks/[name]-[contenthash].js';
     }
     return config;
   }
