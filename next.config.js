@@ -11,7 +11,27 @@ const nextConfig = {
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.output.publicPath = '/gallery-app/';
-      // Ensure CSS is extracted properly
+      
+      // Configure CSS handling
+      config.module.rules.push({
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+              modules: {
+                auto: true,
+                localIdentName: '[name]__[local]--[hash:base64:5]'
+              }
+            }
+          },
+          'postcss-loader'
+        ]
+      });
+
+      // Configure chunk splitting
       config.optimization.splitChunks = {
         chunks: 'all',
         minSize: 20000,
