@@ -2,6 +2,7 @@ import FancyButton from './components/teams/team1/FancyButton'
 import ComponentCard from './components/shared/ComponentCard'
 import fs from 'fs'
 import path from 'path'
+import PaymentButton from './components/teams/jocelyn/PaymentButton'
 
 // This function will be executed at build time
 async function getComponentCode(componentPath) {
@@ -17,6 +18,7 @@ async function getComponentCode(componentPath) {
 
 export default async function Home() {
   const fancyButtonCode = await getComponentCode('app/components/teams/team1/FancyButton.js')
+  const paymentButtonCode = await getComponentCode('app/components/teams/jocelyn/PaymentButton.jsx')
 
   return (
     <div className="min-h-screen bg-gray-100">
@@ -37,6 +39,14 @@ export default async function Home() {
             code={fancyButtonCode}
           >
             <FancyButton />
+          </ComponentCard>
+          <ComponentCard
+            title="Jocelyn - Payment Button"
+            author="Jocelyn"
+            description="A payment button with hover effects"
+            code={paymentButtonCode}
+          >
+            <PaymentButton />
           </ComponentCard>
         </div>
       </main>
