@@ -1,6 +1,9 @@
+
 import ComponentGallery from './components/gallery/ComponentGallery'
+
 import fs from 'fs'
 import path from 'path'
+import ComponentGallery from './components/gallery/ComponentGallery'
 
 // This function will be executed at build time
 async function getComponentCode(componentPath) {
@@ -15,7 +18,6 @@ async function getComponentCode(componentPath) {
 }
 
 export default async function Home() {
-  const fancyButtonCode = await getComponentCode('app/components/teams/team1/FancyButton.js')
 
   return (
     <div className="min-h-screen bg-gray-100">
