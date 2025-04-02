@@ -7,6 +7,21 @@ export const componentRegistry = {
     author: "Formateur",
     description: "Un composant d'exemple en attendant les contributions des élèves."
   },
+
+  "yasmine-btnYas": {
+    Component: require('../teams/yasmine/btnYas.jsx').default,
+    author: "Équipe yasmine",
+    description: "Composant créé par l'équipe yasmine"
+},
+  "Sylvain-Button": {
+    Component: require('../teams/Sylvain/Button.jsx').default,
+    author: "Équipe Sylvain",
+    description: "Composant créé par l'équipe Sylvain"
+  },
+  "Sylvain-FormulaireDeContact": {
+    Component: require('../teams/Sylvain/FormulaireDeContact.jsx').default,
+    author: "Équipe Sylvain",
+    description: "Composant créé par l'équipe Sylvain"},
   "Alex-Button": {
     Component: require('../teams/Alex/Button.jsx').default,
     author: "Alex",
@@ -41,5 +56,6 @@ export const componentRegistry = {
     Component: require('../teams/team1/TestCard.jsx').default,
     author: "Team 1 - Test Group",
     description: "A test card component demonstrating the component registry system"
+
   },
 };
