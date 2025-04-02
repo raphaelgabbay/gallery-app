@@ -8,8 +8,12 @@ const nextConfig = {
   assetPrefix: '/gallery-app/',
   trailingSlash: true,
   distDir: 'out',
-  webpack: (config) => {
-    config.output.publicPath = '/gallery-app/';
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.output.publicPath = '/gallery-app/';
+      config.output.chunkFilename = 'static/chunks/[name].[chunkhash].js';
+      config.output.filename = 'static/chunks/[name].[chunkhash].js';
+    }
     return config;
   }
 }
