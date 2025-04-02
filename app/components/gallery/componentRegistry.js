@@ -7,6 +7,11 @@ export const componentRegistry = {
     author: "Formateur",
     description: "Un composant d'exemple en attendant les contributions des élèves."
   },
+  "team1-FancyButton": {
+    Component: require('../teams/team1/FancyButton.js').default,
+    author: "Team 1 - Student Demo",
+    description: "A fancy animated button with hover effects"
+  },
   "team1-TestCard": {
     Component: require('../teams/team1/TestCard.jsx').default,
     author: "Team 1 - Test Group",
