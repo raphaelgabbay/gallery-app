@@ -37,6 +37,9 @@ jobs:
       - name: Add .nojekyll file 🔧
         run: touch out/.nojekyll
 
+      - name: List output files 🔍
+        run: ls -la out/_next/static
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:

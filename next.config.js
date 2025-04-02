@@ -11,8 +11,8 @@ const nextConfig = {
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.output.publicPath = '/gallery-app/';
-      config.output.chunkFilename = 'static/chunks/[name].[chunkhash].js';
-      config.output.filename = 'static/chunks/[name].[chunkhash].js';
+      delete config.output.chunkFilename;
+      delete config.output.filename;
     }
     return config;
   }
