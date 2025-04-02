@@ -1,5 +1,4 @@
-import FancyButton from './components/teams/team1/FancyButton'
-import ComponentCard from './components/shared/ComponentCard'
+
 import ComponentGallery from './components/gallery/ComponentGallery'
 import fs from 'fs'
 import path from 'path'
