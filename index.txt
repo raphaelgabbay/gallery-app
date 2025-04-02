@@ -1,12 +1,12 @@
 3:I[5613,[],""]
 4:I[1778,[],""]
-5:I[5250,["250","static/chunks/250-ce0fb50d21018129.js","160","static/chunks/app/not-found-82f48831b7903906.js"],""]
-0:["Yps8KAqGriLfzUWYROHEq",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},["$L1","$L2",null]]},[null,["$","html",null,{"lang":"fr","children":["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"className":"min-h-screen bg-gray-100 flex items-center justify-center","children":["$","div",null,{"className":"text-center","children":[["$","h1",null,{"className":"text-4xl font-bold text-gray-900 mb-4","children":"404"}],["$","p",null,{"className":"text-xl text-gray-600","children":"Page not found"}],["$","$L5",null,{"href":"/","className":"mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600","children":"Return Home"}]]}]}],"notFoundStyles":[],"styles":null}]}]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/gallery-app/_next/static/css/46ceb5af65d2e9fd.css","precedence":"next","crossOrigin":""}]],"$L6"]]]]
+5:I[5250,["250","static/chunks/250-ce0fb50d21018129.js","160","static/chunks/app/not-found-f8fe2036936bf33f.js"],""]
+0:["O49pQXv48wX3y6VmgSDfC",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},["$L1","$L2",null]]},[null,["$","html",null,{"lang":"fr","children":["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"className":"min-h-screen bg-gray-100 flex items-center justify-center","children":["$","div",null,{"className":"text-center","children":[["$","h1",null,{"className":"text-4xl font-bold text-gray-900 mb-4","children":"404"}],["$","p",null,{"className":"text-xl text-gray-600","children":"Page not found"}],["$","$L5",null,{"href":"/","className":"mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600","children":"Return Home"}]]}]}],"notFoundStyles":[],"styles":null}]}]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/gallery-app/_next/static/css/46ceb5af65d2e9fd.css","precedence":"next","crossOrigin":""}]],"$L6"]]]]
 6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Gallery App"}],["$","meta","3",{"name":"description","content":"A collaborative React/Git project"}],["$","link","4",{"rel":"icon","href":"/gallery-app/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
 1:null
-7:I[126,["931","static/chunks/app/page-991e1dca2c609b90.js"],""]
-9:I[8853,["931","static/chunks/app/page-991e1dca2c609b90.js"],""]
-8:T446,'use client'
+7:I[126,["931","static/chunks/app/page-74a68b28fb38f35f.js"],""]
+9:I[8853,["931","static/chunks/app/page-74a68b28fb38f35f.js"],""]
+8:T423,'use client'
 
 /* Author: Team 1 - Student Demo */
 /* Description: A fancy animated button with hover effects */
