@@ -13,6 +13,11 @@ export const componentRegistry = {
     author: "Équipe Rania",
     description: "Composant créé par l'équipe Rania"},
 
+  "Abdrahamane-ButtonAbd": {
+    Component: require('../teams/Abdrahamane/ButtonAbd.jsx').default,
+    author: "Équipe Abdrahamane",
+    description: "Composant créé par l'équipe Abdrahamane"},
+
   "yasmine-btnYas": {
     Component: require('../teams/yasmine/btnYas.jsx').default,
     author: "Équipe yasmine",
