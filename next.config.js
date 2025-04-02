@@ -11,8 +11,7 @@ const nextConfig = {
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.output.publicPath = '/gallery-app/';
-      config.output.chunkFilename = 'static/chunks/[name].[contenthash].js';
-      config.output.filename = 'static/chunks/[name].[contenthash].js';
+      // Ensure CSS is extracted properly
       config.optimization.splitChunks = {
         chunks: 'all',
         minSize: 20000,
