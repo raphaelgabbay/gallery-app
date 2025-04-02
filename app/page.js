@@ -1,5 +1,6 @@
 import FancyButton from './components/teams/team1/FancyButton'
 import ComponentCard from './components/shared/ComponentCard'
+import ComponentGallery from './components/gallery/ComponentGallery'
 import fs from 'fs'
 import path from 'path'
 import PaymentButton from './components/teams/jocelyn/PaymentButton'
@@ -49,6 +50,7 @@ export default async function Home() {
             <PaymentButton />
           </ComponentCard>
         </div>
+        <ComponentGallery />
       </main>
       
       <footer className="bg-gray-800 text-white p-4 mt-8">
