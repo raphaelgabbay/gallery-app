@@ -1,5 +1,3 @@
-import FancyButton from './components/teams/team1/FancyButton'
-import ComponentCard from './components/shared/ComponentCard'
 import ComponentGallery from './components/gallery/ComponentGallery'
 import fs from 'fs'
 import path from 'path'
@@ -27,12 +25,11 @@ export default async function Home() {
           <p>Formation React, Tailwind, Git</p>
         </div>
       </header>
-      
+
       <main className="container mx-auto py-8">
         <h2 className="text-3xl font-bold text-center mb-8">Galerie de Composants</h2>
         <ComponentGallery />
       </main>
-      
       <footer className="bg-gray-800 text-white p-4 mt-8">
         <div className="container mx-auto text-center">
           <p>© {new Date().getFullYear()} - Formation développement web</p>
