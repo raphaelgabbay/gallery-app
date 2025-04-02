@@ -1,44 +1,8 @@
 3:I[5613,[],""]
 4:I[1778,[],""]
-5:I[5250,["250","static/chunks/250-ce0fb50d21018129.js","160","static/chunks/app/not-found-f8fe2036936bf33f.js"],""]
-0:["O49pQXv48wX3y6VmgSDfC",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},["$L1","$L2",null]]},[null,["$","html",null,{"lang":"fr","children":["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"className":"min-h-screen bg-gray-100 flex items-center justify-center","children":["$","div",null,{"className":"text-center","children":[["$","h1",null,{"className":"text-4xl font-bold text-gray-900 mb-4","children":"404"}],["$","p",null,{"className":"text-xl text-gray-600","children":"Page not found"}],["$","$L5",null,{"href":"/","className":"mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600","children":"Return Home"}]]}]}],"notFoundStyles":[],"styles":null}]}]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/gallery-app/_next/static/css/46ceb5af65d2e9fd.css","precedence":"next","crossOrigin":""}]],"$L6"]]]]
+5:I[5250,["250","static/chunks/250-999a97f3061afe63.js","160","static/chunks/app/not-found-f8fe2036936bf33f.js"],""]
+0:["9W3Fx5R6Y0no3lJPTlWG9",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",{"children":["__PAGE__",{},["$L1","$L2",null]]},[null,["$","html",null,{"lang":"fr","children":["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","div",null,{"className":"min-h-screen bg-gray-100 flex items-center justify-center","children":["$","div",null,{"className":"text-center","children":[["$","h1",null,{"className":"text-4xl font-bold text-gray-900 mb-4","children":"404"}],["$","p",null,{"className":"text-xl text-gray-600","children":"Page not found"}],["$","$L5",null,{"href":"/","className":"mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600","children":"Return Home"}]]}]}],"notFoundStyles":[],"styles":null}]}]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/gallery-app/_next/static/css/46ceb5af65d2e9fd.css","precedence":"next","crossOrigin":""}]],"$L6"]]]]
 6:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Gallery App"}],["$","meta","3",{"name":"description","content":"A collaborative React/Git project"}],["$","link","4",{"rel":"icon","href":"/gallery-app/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
 1:null
-7:I[126,["931","static/chunks/app/page-74a68b28fb38f35f.js"],""]
-9:I[8853,["931","static/chunks/app/page-74a68b28fb38f35f.js"],""]
-8:T423,'use client'
-
-/* Author: Team 1 - Student Demo */
-/* Description: A fancy animated button with hover effects */
-
-export default function FancyButton() {
-  return (
-    <div className="flex flex-col items-center gap-4 p-4">
-      <button 
-        onClick={() => alert('Button clicked!')}
-        className="
-          relative px-6 py-3 text-white font-medium
-          bg-gradient-to-r from-blue-500 to-purple-500
-          rounded-lg shadow-lg
-          transform transition-all duration-300
-          hover:scale-105 hover:shadow-xl
-          active:scale-95
-          overflow-hidden
-          group
-        "
-      >
-        <span className="relative z-10">Click Me!</span>
-        <div className="
-          absolute inset-0 bg-gradient-to-r from-purple-500 to-blue-500
-          transform scale-x-0 transition-transform duration-300
-          group-hover:scale-x-100
-          origin-left
-        "></div>
-      </button>
-      
-      <p className="text-sm text-gray-600 text-center mt-2">
-        Try hovering and clicking!
-      </p>
-    </div>
-  )
-} 2:["$","div",null,{"className":"min-h-screen bg-gray-100","children":[["$","header",null,{"className":"bg-blue-600 text-white p-4","children":["$","div",null,{"className":"container mx-auto","children":[["$","h1",null,{"className":"text-2xl font-bold","children":"TP Collaboratif React/Git"}],["$","p",null,{"children":"Formation React, Tailwind, Git"}]]}]}],["$","main",null,{"className":"container mx-auto py-8","children":[["$","h2",null,{"className":"text-3xl font-bold text-center mb-8","children":"Galerie de Composants"}],["$","div",null,{"className":"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6","children":["$","$L7",null,{"title":"Team 1 - Fancy Button","author":"Student Demo","description":"A fancy animated button with hover effects","code":"$8","children":["$","$L9",null,{}]}]}]]}],["$","footer",null,{"className":"bg-gray-800 text-white p-4 mt-8","children":["$","div",null,{"className":"container mx-auto text-center","children":["$","p",null,{"children":["© ",2025," - Formation développement web"]}]}]}]]}]
+7:I[4110,["931","static/chunks/app/page-a77e69ce7bc29442.js"],""]
+2:["$","div",null,{"className":"min-h-screen bg-gray-100","children":[["$","header",null,{"className":"bg-blue-600 text-white p-4","children":["$","div",null,{"className":"container mx-auto","children":[["$","h1",null,{"className":"text-2xl font-bold","children":"TP Collaboratif React/Git"}],["$","p",null,{"children":"Formation React, Tailwind, Git"}]]}]}],["$","main",null,{"className":"container mx-auto py-8","children":[["$","h2",null,{"className":"text-3xl font-bold text-center mb-8","children":"Galerie de Composants"}],["$","$L7",null,{}]]}],["$","footer",null,{"className":"bg-gray-800 text-white p-4 mt-8","children":["$","div",null,{"className":"container mx-auto text-center","children":["$","p",null,{"children":["© ",2025," - Formation développement web"]}]}]}]]}]
