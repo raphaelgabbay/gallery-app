@@ -1,6 +1,4 @@
 
-import ComponentGallery from './components/gallery/ComponentGallery'
-
 import fs from 'fs'
 import path from 'path'
 import ComponentGallery from './components/gallery/ComponentGallery'
